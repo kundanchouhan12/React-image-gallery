@@ -1,0 +1,81 @@
+/* CSS for styling the premium cards */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-card {
+  width: 300px;
+  margin: 15px;
+  padding: 15px;
+  background-color: #fdfdfd;
+  border: 1px solid #eaeaea;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.image-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.description {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #666;
+}
+
+.comments, .like {
+  font-size: 16px;
+  color: #999;
+}
+
+.sentinel {
+  height: 1px;
+}
+
+.detail-card {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img-detail {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
